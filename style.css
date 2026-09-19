@@ -138,6 +138,10 @@ p { line-height: 1.5; }
 .progress-island:nth-child(4n + 2) { background: linear-gradient(145deg, #edf3ee, #e2eee6); }
 .progress-island:nth-child(4n + 3) { background: linear-gradient(145deg, #f5eee7, #f0e5df); }
 .progress-island:nth-child(4n + 4) { background: linear-gradient(145deg, #eeeaf5, #e6e1ef); }
+body.dark .progress-island { border-color: #3a3b42; background: #2a2b31; }
+body.dark .progress-island:nth-child(4n + 2) { background: #29312e; }
+body.dark .progress-island:nth-child(4n + 3) { background: #332d2d; }
+body.dark .progress-island:nth-child(4n + 4) { background: #302d38; }
 
 .progress-island::after {
   content: "";
@@ -149,6 +153,7 @@ p { line-height: 1.5; }
   border-radius: 50%;
   background: rgba(255, 255, 255, .34);
 }
+body.dark .progress-island::after { background: rgba(255, 255, 255, .045); }
 .progress-island-icon { position: relative; z-index: 1; color: var(--accent-strong); font-size: 23px; line-height: 1; }
 .progress-island strong { position: relative; z-index: 1; max-width: 112px; margin-top: 17px; font-size: 12px; line-height: 1.25; }
 .progress-island small { position: relative; z-index: 1; margin-top: 5px; color: var(--muted); font-size: 10px; line-height: 1.25; }

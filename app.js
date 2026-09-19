@@ -420,6 +420,7 @@
   });
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden" && state.active) persistActive(); });
 
+  applyTheme();
   app.innerHTML = `<div class="loading-screen" role="status" aria-label="Загружаем задания">
     <div class="georgian-loader" aria-hidden="true"><span>ქ</span><span>ა</span><span>რ</span><span>თ</span><span>უ</span><span>ლ</span><span>ი</span></div>
     <div class="loading-title">Загружаем задания</div>
