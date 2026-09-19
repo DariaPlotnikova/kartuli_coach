@@ -1,0 +1,52 @@
+name: Deploy Kartuli Coach to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build static site with hashed assets
+        env:
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          rm -rf _site
+          mkdir -p _site/exercises
+          cp simple_kartuli.html _site/simple_kartuli.html
+          cp exercises/*.json _site/exercises/
+          CSS_HASH=$(sha256sum style.css | cut -c1-12)
+          JS_HASH=$(sha256sum app.js | cut -c1-12)
+          cp style.css "_site/style.${CSS_HASH}.css"
+          cp app.js "_site/app.${JS_HASH}.js"
+          sed -i -e "s#style.css#style.${CSS_HASH}.css#g" -e "s#app.js#app.${JS_HASH}.js#g" -e "s#data-version=\"dev\"#data-version=\"${COMMIT_SHA}\"#" _site/simple_kartuli.html
+          cp _site/simple_kartuli.html _site/index.html
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
