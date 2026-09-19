@@ -1,0 +1,1307 @@
+[
+  {
+    "id": "0cab7f9f-15f6-470b-be04-95c6790ddc42",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я хочу кофе",
+    "answers": [
+      "ყავა მინდა"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "want"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "3e0b9002-e0f9-4f58-a308-11a249555dab",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Ты хочешь чай?",
+    "answers": [
+      "ჩაი გინდა?"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "want"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "6d7847ae-a75a-49eb-8371-4083d9f6b70c",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Он хочет домой",
+    "answers": [
+      "სახლში უნდა"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "want"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "e6c91b09-0b01-4ad7-991e-439c6e134104",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Мы хотим учиться",
+    "answers": [
+      "სწავლა გვინდა"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "want"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "c751ac18-c0f9-408c-9d71-e4ebbd86cb29",
+    "task": "Переведи на грузинский",
+    "task_phrase": "У меня есть время",
+    "answers": [
+      "დრო მაქვს"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "have"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "c8fe5d79-9350-4166-9b84-bf6aaa76428a",
+    "task": "Переведи на грузинский",
+    "task_phrase": "У тебя нет ключа",
+    "answers": [
+      "გასაღები არ გაქვს"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "have"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "5a8f6903-65e7-487e-8db9-4bc5248a441c",
+    "task": "Переведи на грузинский",
+    "task_phrase": "У неё есть вопрос",
+    "answers": [
+      "მას კითხვა აქვს"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "have"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "0a8ee7eb-1bde-4b8e-ae9d-765f595a15df",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Мне нужна помощь",
+    "answers": [
+      "დახმარება მჭირდება"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "need"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "2147910e-1154-4042-abc3-8438a4b86a9b",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Тебе нужна вода?",
+    "answers": [
+      "წყალი გჭირდება?"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "need"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "1e5f1955-73b5-42b0-97e8-74e3b9d76006",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я люблю грузинскую музыку",
+    "answers": [
+      "ქართული მუსიკა მიყვარს"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "feelings"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "83cc09fb-58d0-4442-8015-faba4f0afe56",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я понимаю вопрос",
+    "answers": [
+      "კითხვა მესმის"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "perception"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "c1a3c561-d4db-4dcf-a623-3936c32ae640",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Ты слышишь?",
+    "answers": [
+      "გესმის?"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "perception"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "c659f9ff-cddf-41f2-91c8-660ec243cc0a",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я говорю по-грузински",
+    "answers": [
+      "ქართულად ვლაპარაკობ"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "speak"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "50c54ed6-9490-4fd7-a398-ad228ef5a731",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Ты говоришь медленно",
+    "answers": [
+      "ნელა ლაპარაკობ"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "speak"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "7ba90862-fcdc-4878-951f-38509cd19a3d",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Он говорит по телефону",
+    "answers": [
+      "ის ტელეფონზე ლაპარაკობს"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "speak"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "0b72fc3f-6fc0-40f1-aef9-4b125654714c",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я делаю обед",
+    "answers": [
+      "სადილს ვაკეთებ"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "do"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "f9be4a39-19b9-4ec9-8179-540573ed0be5",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Что ты делаешь?",
+    "answers": [
+      "რას აკეთებ?"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "do"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "90726858-0c48-4231-806b-6f08e629be7f",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Она читает книгу",
+    "answers": [
+      "ის წიგნს კითხულობს"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "read"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "ebe3db2f-5a8f-43b3-8274-37d884d6bf77",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я пишу сообщение",
+    "answers": [
+      "შეტყობინებას ვწერ"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "write"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "6411ffbd-f21d-4dcb-87f0-0df75d385dad",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Мы учимся дома",
+    "answers": [
+      "სახლში ვსწავლობთ"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "study"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "ec8d7646-1e30-4701-9ee7-d839a9538771",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Вы работаете сегодня?",
+    "answers": [
+      "დღეს მუშაობთ?"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "work"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "4e6f66df-431f-47b8-a5b7-a8c999345a2a",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Они смотрят фильм",
+    "answers": [
+      "ისინი ფილმს უყურებენ"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [
+      "everyday"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "watch"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "fcc605fa-3154-4d64-b7d5-3717c2dccbfe",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я дома",
+    "answers": [
+      "სახლში ვარ"
+    ],
+    "themes": [
+      "be_verb"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "present"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "33309b30-4dca-475a-bf5a-7e458a3512a6",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Ты в Тбилиси",
+    "answers": [
+      "თბილისში ხარ"
+    ],
+    "themes": [
+      "be_verb"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "present"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "aa247519-97fa-496e-b7ac-e02ec71d34b2",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Она в офисе",
+    "answers": [
+      "ის ოფისშია"
+    ],
+    "themes": [
+      "be_verb"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "present"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "008b3af4-fad4-4814-bbbb-47964773526f",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Мы готовы",
+    "answers": [
+      "მზად ვართ"
+    ],
+    "themes": [
+      "be_verb"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "present"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "defc60aa-97ec-4868-a08a-8ef2a6223511",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Вчера я была дома",
+    "answers": [
+      "გუშინ სახლში ვიყავი"
+    ],
+    "themes": [
+      "be_verb"
+    ],
+    "context": [
+      "time"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "past"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "8dc36120-0190-4577-b1fc-36918fe46467",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Вчера ты был занят",
+    "answers": [
+      "გუშინ დაკავებული იყავი"
+    ],
+    "themes": [
+      "be_verb"
+    ],
+    "context": [
+      "time"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "past"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "2fd38181-0f72-4c87-8bf6-c3b9a60141ab",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Они были в кафе",
+    "answers": [
+      "ისინი კაფეში იყვნენ"
+    ],
+    "themes": [
+      "be_verb"
+    ],
+    "context": [
+      "time"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "past"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "9510dad5-1085-4dfa-a363-6200bd9b6913",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Завтра я буду в Батуми",
+    "answers": [
+      "ხვალ ბათუმში ვიქნები"
+    ],
+    "themes": [
+      "be_verb"
+    ],
+    "context": [
+      "time"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "future"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "6be58372-1773-4343-9126-5dfe11ec351c",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Ты будешь дома вечером?",
+    "answers": [
+      "საღამოს სახლში იქნები?"
+    ],
+    "themes": [
+      "be_verb"
+    ],
+    "context": [
+      "time"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "future"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "da1b86f7-fb43-4ace-a8b6-e17389f4f9d7",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Она будет занята утром",
+    "answers": [
+      "ის დილით დაკავებული იქნება"
+    ],
+    "themes": [
+      "be_verb"
+    ],
+    "context": [
+      "time"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "future"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "d49d8d65-5028-401a-a852-ef2d2fa41745",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Мы будем в городе",
+    "answers": [
+      "ქალაქში ვიქნებით"
+    ],
+    "themes": [
+      "be_verb"
+    ],
+    "context": [
+      "time"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "future"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "a13bb8ee-8aba-4136-a3b4-bebaa442f61f",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Они будут здесь",
+    "answers": [
+      "ისინი აქ იქნებიან"
+    ],
+    "themes": [
+      "be_verb"
+    ],
+    "context": [
+      "time"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "future"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "2a10e869-b7ff-40ff-a92f-1cf9734b5a0e",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я иду в магазин",
+    "answers": [
+      "მაღაზიაში მივდივარ"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "go"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "e3c919f6-197b-4f24-9e56-1c1ca2c42479",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Ты идёшь домой?",
+    "answers": [
+      "სახლში მიდიხარ?"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "go"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "a4c3be20-e8d7-4a34-9630-713c42451ce4",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Он идёт в школу",
+    "answers": [
+      "ის სკოლაში მიდის"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "go"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "adf71306-7136-4e2d-ac21-6f8a0e662b50",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я прихожу домой",
+    "answers": [
+      "სახლში მოვდივარ"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "come"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "f43cadb7-0bfb-48cf-a834-4afe8ee50418",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Ты приходишь к врачу?",
+    "answers": [
+      "ექიმთან მოდიხარ?"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "come"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "02200a0b-c984-428d-9b95-1983b681d31d",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Она спускается во двор",
+    "answers": [
+      "ის ეზოში ჩადის"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "down"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "ba3c8161-312b-4d95-98cb-1e548a595e7e",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я поднимаюсь по лестнице",
+    "answers": [
+      "კიბეზე ავდივარ"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "up"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "92f2b6c3-600a-49c5-adfd-e37c6e313144",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Ты заходишь в комнату",
+    "answers": [
+      "ოთახში შედიხარ?"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "in"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "87d943c2-6ec9-4c17-8fa9-db0c32438d29",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Он заходит в магазин",
+    "answers": [
+      "ის მაღაზიაში შედის"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "in"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "247ad272-7028-49a1-87bd-1529ec46f7c4",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я выхожу из дома",
+    "answers": [
+      "სახლიდან გამოვდივარ"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "out"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "c2dfb6f2-035f-4db6-b3b8-ed2b380e7db1",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Она выходит из комнаты",
+    "answers": [
+      "ის ოთახიდან გამოდის"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "out"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "011e6d60-7f1c-430c-b2b6-fda718fde109",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Откуда ты приходишь?",
+    "answers": [
+      "საიდან მოდიხარ?"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "come"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "6d691b1a-8231-4bbe-a41e-ad5abe966fdf",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Куда ты идёшь?",
+    "answers": [
+      "სად მიდიხარ?"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "go"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "c0503ac2-4570-4cc9-b19e-13fdbd616f68",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Ты спускаешься по этой лестнице?",
+    "answers": [
+      "ამ კიბეზე ჩადიხარ?"
+    ],
+    "themes": [
+      "movement_verbs"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "down"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "26081bd4-dc98-4c59-ad29-6190c325ccd4",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Эта улица",
+    "answers": [
+      "ეს ქუჩა"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "demonstratives"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "d648588d-bac4-477d-8244-ddaa8d58536b",
+    "task": "Переведи на грузинский",
+    "task_phrase": "В этой комнате",
+    "answers": [
+      "ამ ოთახში"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "demonstratives"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "e67ddd16-2465-4a42-80d2-a6acbf4379ce",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Тот магазин",
+    "answers": [
+      "ის მაღაზია"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "demonstratives"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "6230b5ea-ecec-4fc9-a13d-38849e0fac27",
+    "task": "Переведи на грузинский",
+    "task_phrase": "В том магазине",
+    "answers": [
+      "იმ მაღაზიაში"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "demonstratives"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "2bb246e4-70b6-4002-98ad-20b124ee3776",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Города",
+    "answers": [
+      "ქალაქები"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "plural"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "6e13c7b5-b963-4223-b89c-39454d655e66",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Улицы",
+    "answers": [
+      "ქუჩები"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "plural"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "5fa1bc75-d9ff-49e7-b12f-bf87b885da0d",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Эти книги",
+    "answers": [
+      "ეს წიგნები"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "plural"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "ea2c962f-bb04-450b-95ae-edd689c67839",
+    "task": "Переведи на грузинский",
+    "task_phrase": "У них есть билеты",
+    "answers": [
+      "მათ ბილეთები აქვთ"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "plural"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "1934e445-ee9a-4219-80a4-82f5ebf83c1c",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я хочу жить в Батуми",
+    "answers": [
+      "ბათუმში ცხოვრება მინდა"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "masdar"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "84b5179b-7094-43f4-be0d-97b8624da30b",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я хочу поговорить",
+    "answers": [
+      "ლაპარაკი მინდა"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "masdar"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "11917b5b-4ef0-42a3-bb5b-3081554b3f8b",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Быть дома хорошо",
+    "answers": [
+      "სახლში ყოფნა კარგია"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "masdar"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "99709e7d-5f62-418c-82d4-59c0868ca59e",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я тоже",
+    "answers": [
+      "მეც"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "particle_tse"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "8d0a58d4-64af-4005-adac-52a9cebb13c5",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Она тоже здесь",
+    "answers": [
+      "ისიც აქ არის"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "particle_tse"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "0219db1c-cbdd-4b19-bb85-87acd6712ac6",
+    "task": "Переведи на грузинский",
+    "task_phrase": "И там тоже",
+    "answers": [
+      "იქაც"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "particle_tse"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "78fc39cc-78a4-471d-99bc-c5f75249807d",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Для кого этот билет?",
+    "answers": [
+      "ვისთვის არის ეს ბილეთი?"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "postposition_tvis"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "a803109b-fbe8-488b-a5fa-9b676a1cb9ff",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Это подарок для мамы",
+    "answers": [
+      "ეს დედისთვის საჩუქარია"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [],
+    "mode": "ru_to_ka",
+    "skills": [
+      "postposition_tvis"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "85f79620-008f-4c06-af23-132d547d1957",
+    "task": "Переведи на грузинский",
+    "task_phrase": "В большом городе",
+    "answers": [
+      "დიდ ქალაქში"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "adjective_truncation"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "3ec781f8-465e-437f-a403-4de26fec410d",
+    "task": "Переведи на грузинский",
+    "task_phrase": "У хорошего врача",
+    "answers": [
+      "კარგ ექიმთან"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [
+      "place_location"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "adjective_truncation"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "a248c7b9-35ff-405f-b9ea-6d7d24d8ef3c",
+    "task": "Переведи на русский",
+    "task_phrase": "ამ ოთახში",
+    "answers": [
+      "В этой комнате"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [],
+    "mode": "ka_to_ru",
+    "skills": [
+      "demonstratives"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "40172d87-8b37-48a2-b135-8025804ce658",
+    "task": "Переведи на русский",
+    "task_phrase": "მათ ბილეთები აქვთ",
+    "answers": [
+      "У них есть билеты"
+    ],
+    "themes": [
+      "feelings_perception"
+    ],
+    "context": [],
+    "mode": "ka_to_ru",
+    "skills": [
+      "plural"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "3c2831ea-abad-4124-beb2-87f02caa3969",
+    "task": "Переведи на русский",
+    "task_phrase": "სახლში ყოფნა კარგია",
+    "answers": [
+      "Быть дома хорошо"
+    ],
+    "themes": [
+      "action_verbs"
+    ],
+    "context": [],
+    "mode": "ka_to_ru",
+    "skills": [
+      "masdar"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "3416a652-54ae-47ef-a640-e8dbc976658f",
+    "task": "Переведи на русский",
+    "task_phrase": "ვისთვის არის ეს ბილეთი?",
+    "answers": [
+      "Для кого этот билет?"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [],
+    "mode": "ka_to_ru",
+    "skills": [
+      "postposition_tvis"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "592a9220-dfaf-4c39-b9a4-e18e699f04f9",
+    "task": "Переведи на русский",
+    "task_phrase": "კარგ ექიმთან",
+    "answers": [
+      "У хорошего врача"
+    ],
+    "themes": [
+      "possession_cases"
+    ],
+    "context": [],
+    "mode": "ka_to_ru",
+    "skills": [
+      "adjective_truncation"
+    ],
+    "difficulty": 1
+  }
+]

@@ -105,23 +105,55 @@ p { line-height: 1.5; }
 
 .progress-overview { display: flex; gap: 8px; margin: 20px 0 10px; }
 .progress-widget { padding: 0; border: 0; background: transparent; box-shadow: none; }
-.progress-widget .progress-overview { margin: 0; align-items: center; gap: 16px; }
-.progress-ring { width: 86px; height: 86px; position: relative; display: grid; place-items: center; flex: none; }
+.progress-widget .progress-overview { min-height: 112px; margin: 0; align-items: center; gap: 20px; }
+.progress-ring { width: 104px; height: 104px; position: relative; display: grid; place-items: center; flex: none; }
 .progress-ring svg { position: absolute; inset: 0; transform: rotate(-90deg); }
 .progress-ring circle { fill: none; stroke-width: 8; }
 .progress-ring .ring-track { stroke: var(--accent2); }
 .progress-ring .ring-fill { stroke: var(--accent); stroke-linecap: round; stroke-dasharray: 220; transition: stroke-dashoffset .35s ease; }
 .progress-ring b { font-size: 20px; }
 .progress-copy { flex: 1; }
-.progress-copy strong { display: block; margin-bottom: 5px; font-size: 15px; line-height: 1.35; }
-.progress-copy span { color: var(--muted); font-size: 12px; }
-.progress-topic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 16px; }
-.progress-topic { min-height: 66px; padding: 11px; overflow: hidden; border: 1px solid var(--line); border-radius: 13px; background: var(--soft); }
-.progress-topic-top { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; }
-.progress-topic-top span { min-width: 0; overflow: hidden; color: var(--text); font-weight: 500; text-overflow: ellipsis; white-space: nowrap; }
-.progress-topic-top em { color: var(--muted); font-size: 11px; font-style: normal; white-space: nowrap; }
-.progress-topic i { display: block; height: 4px; margin-top: 10px; overflow: hidden; border-radius: 99px; background: var(--line); }
-.progress-topic i b { display: block; height: 100%; border-radius: inherit; background: var(--accent); transition: width .25s ease; }
+.progress-copy strong { display: block; margin-bottom: 7px; font-size: 16px; line-height: 1.35; }
+.progress-copy span { color: var(--muted); font-size: 12px; line-height: 1.4; }
+.progress-islands {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 24px 0 0;
+  padding: 2px 0 8px;
+}
+.progress-island {
+  position: relative;
+  min-width: 0;
+  min-height: 132px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--accent) 12%, var(--line));
+  border-radius: 16px;
+  background: linear-gradient(145deg, #f1edf9, #e9e5f1);
+}
+.progress-island:nth-child(4n + 2) { background: linear-gradient(145deg, #edf3ee, #e2eee6); }
+.progress-island:nth-child(4n + 3) { background: linear-gradient(145deg, #f5eee7, #f0e5df); }
+.progress-island:nth-child(4n + 4) { background: linear-gradient(145deg, #eeeaf5, #e6e1ef); }
+
+.progress-island::after {
+  content: "";
+  position: absolute;
+  right: -22px;
+  bottom: -28px;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .34);
+}
+.progress-island-icon { position: relative; z-index: 1; color: var(--accent-strong); font-size: 23px; line-height: 1; }
+.progress-island strong { position: relative; z-index: 1; max-width: 112px; margin-top: 17px; font-size: 12px; line-height: 1.25; }
+.progress-island small { position: relative; z-index: 1; margin-top: 5px; color: var(--muted); font-size: 10px; line-height: 1.25; }
+.progress-island-track { position: relative; z-index: 1; width: 100%; height: 4px; margin-top: auto; overflow: hidden; border-radius: 99px; background: rgba(41, 40, 45, .1); }
+.progress-island-track b { display: block; height: 100%; border-radius: inherit; background: var(--accent); transition: width .25s ease; }
 
 .stat { flex: 1; padding: 14px 8px; text-align: center; background: var(--card); border: 1px solid var(--line); border-radius: 14px; }
 .stat b { display: block; font-size: 22px; font-weight: 600; }
@@ -191,8 +223,12 @@ textarea {
 }
 textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent); }
 .autosave-note { margin-top: 7px; color: var(--muted); font-size: 11px; }
-.answer-panel { margin-top: 15px; padding: 14px; border-radius: 13px; background: var(--accent2); animation: answer-in .28s cubic-bezier(.2,.8,.2,1) both; }
+.answer-panel { margin-top: 15px; padding: 14px; border: 1px solid transparent; border-radius: 13px; background: var(--accent2); animation: answer-in .28s cubic-bezier(.2,.8,.2,1) both; }
+.answer-panel.answer-correct { border-color: color-mix(in srgb, var(--good) 38%, var(--line)); background: color-mix(in srgb, var(--good) 14%, var(--card)); animation: answer-in .28s cubic-bezier(.2,.8,.2,1) both, answer-correct .7s ease-out .1s both; }
+.answer-panel.answer-incorrect { border-color: color-mix(in srgb, var(--bad) 38%, var(--line)); background: color-mix(in srgb, var(--bad) 12%, var(--card)); animation: answer-in .28s cubic-bezier(.2,.8,.2,1) both, answer-incorrect .7s ease-out .1s both; }
 @keyframes answer-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes answer-correct { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--good) 0%, transparent); } 45% { box-shadow: 0 0 0 5px color-mix(in srgb, var(--good) 15%, transparent); } 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--good) 0%, transparent); } }
+@keyframes answer-incorrect { 0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--bad) 0%, transparent); } 45% { box-shadow: 0 0 0 5px color-mix(in srgb, var(--bad) 13%, transparent); } 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--bad) 0%, transparent); } }
 .answer-label { margin-bottom: 7px; color: var(--muted); font-size: 11px; }
 .answer { font-family: "Noto Sans Georgian", sans-serif; font-size: 19px; line-height: 1.5; }
 .answer + .answer { margin-top: 9px; padding-top: 9px; border-top: 1px solid color-mix(in srgb, var(--accent) 20%, transparent); }

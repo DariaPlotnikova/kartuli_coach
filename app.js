@@ -3,9 +3,34 @@
 
   const STORAGE_KEY = "kartuli.practice.v1";
   const BATCH_FILES = [
-    "exercises/georgian_exercises_1000.json"
+    "exercises/georgian_exercises_1000.json",
+    "exercises/georgian_exercises_additional_a1.json"
   ];
   const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+  const THEME_LABELS = {
+    basic_constructions: "Базовые конструкции",
+    possession_cases: "Принадлежность и падежи",
+    questions_communication: "Вопросы и общение",
+    place_location: "Место и пространство",
+    time_tenses: "Время и формы глагола",
+    everyday_situations: "Повседневные ситуации",
+    feelings_perception: "Глаголы чувств и восприятия",
+    action_verbs: "Глаголы действия",
+    be_verb: "Глагол «быть»",
+    movement_verbs: "Глаголы движения"
+  };
+  const THEME_ICONS = {
+    basic_constructions: "🧩",
+    possession_cases: "🔑",
+    questions_communication: "❓",
+    place_location: "🏠",
+    time_tenses: "🕒",
+    everyday_situations: "☕",
+    feelings_perception: "👁️",
+    action_verbs: "💪",
+    be_verb: "💀",
+    movement_verbs: "🏃"
+  };
   const app = document.querySelector("#app");
   const version = document.documentElement.dataset.version || "dev";
   let exercises = [];
@@ -72,6 +97,10 @@
     }[char]));
   }
 
+  function normalizeAnswer(value) {
+    return String(value ?? "").trim().toLocaleLowerCase().replace(/\s+/g, " ");
+  }
+
   function uuid() {
     if (crypto.randomUUID) return crypto.randomUUID();
     return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, char => {
@@ -103,6 +132,10 @@
 
   function allThemes() {
     return [...new Set(exercises.flatMap(item => item.themes))].sort((a, b) => a.localeCompare(b));
+  }
+
+  function themeLabel(theme) {
+    return THEME_LABELS[theme] || theme;
   }
 
   function completedCount() {
@@ -169,7 +202,7 @@
         ${paused ? `<button class="card card-button paused-card" data-action="resume">
           <div class="paused-title">Незавершённая тренировка</div>
           <div class="muted">${activeDone} из ${state.active.exerciseIds.length} заданий пройдено</div>
-          <div class="progress-line"><div class="progress-track"><i style="width:${activeDone / state.active.exerciseIds.length * 100}%"></i></div><span class="progress-number">Продолжение</span></div>
+          <div class="progress-line"><div class="progress-track"><i style="width:${activeDone / state.active.exerciseIds.length * 100}%"></i></div><span class="progress-number">Продолжить</span></div>
         </button>` : ""}
         <button class="primary" data-action="setup">${paused ? "Новая тренировка" : "Тренировка"}</button>
         <h2>Твой прогресс</h2>
@@ -184,13 +217,13 @@
     const percent = progressPercent();
     const circumference = 220;
     const offset = circumference - (circumference * percent / 100);
-    const topicCards = themes.map(theme => {
+    const islandCards = themes.map((theme, index) => {
       const total = exercises.filter(item => item.themes.includes(theme)).length;
       const done = exercises.filter(item => item.themes.includes(theme) && store.exercises[item.id]?.completed).length;
       const value = total ? Math.round(done / total * 100) : 0;
-      return `<div class="progress-topic"><div class="progress-topic-top"><span>${escapeHtml(theme)}</span><em>${done}/${total}</em></div><i><b style="width:${value}%"></b></i></div>`;
+      return `<div class="progress-island island-${index % 4}"><div class="progress-island-icon" aria-hidden="true">${THEME_ICONS[theme] || "✦"}</div><strong>${escapeHtml(themeLabel(theme))}</strong><small>${done} / ${total} заданий · ${value}%</small><div class="progress-island-track"><b style="width:${value}%"></b></div></div>`;
     }).join("");
-    return `<div class="progress-widget"><div class="progress-overview"><div class="progress-ring"><svg viewBox="0 0 86 86" aria-hidden="true"><circle class="ring-track" cx="43" cy="43" r="35"></circle><circle class="ring-fill" cx="43" cy="43" r="35" style="stroke-dashoffset:${offset}"></circle></svg><b>${percent}%</b></div><div class="progress-copy"><strong>${escapeHtml(progressMessage(completedCount(), percent))}</strong><span>${completedCount()} из ${exercises.length} заданий</span></div></div><div class="progress-topic-grid">${topicCards}</div></div>`;
+    return `<div class="progress-widget"><div class="progress-overview"><div class="progress-ring"><svg viewBox="0 0 86 86" aria-hidden="true"><circle class="ring-track" cx="43" cy="43" r="35"></circle><circle class="ring-fill" cx="43" cy="43" r="35" style="stroke-dashoffset:${offset}"></circle></svg><b>${percent}%</b></div><div class="progress-copy"><strong>${escapeHtml(progressMessage(completedCount(), percent))}</strong><span>${completedCount()} из ${exercises.length} заданий</span></div></div><div class="progress-islands" aria-label="Прогресс по темам">${islandCards}</div></div>`;
   }
 
   function setup() {
@@ -200,7 +233,7 @@
       <section class="slide-in">
         <div class="section-label">Темы</div>
         <div class="section-help">Выбирается одна или несколько тем</div>
-        <div class="topic-cloud">${themes.map(theme => `<button class="topic-chip ${state.selectedThemes.includes(theme) ? "selected" : ""}" data-action="theme-chip" data-theme="${escapeHtml(theme)}"><span class="check">✓</span>${escapeHtml(theme)}</button>`).join("")}</div>
+        <div class="topic-cloud">${themes.map(theme => `<button class="topic-chip ${state.selectedThemes.includes(theme) ? "selected" : ""}" data-action="theme-chip" data-theme="${escapeHtml(theme)}"><span class="check">✓</span>${escapeHtml(themeLabel(theme))}</button>`).join("")}</div>
         <div class="section-label">Количество заданий</div>
         <div class="quantity-panel">
           <div class="stepper"><button class="step-button" data-action="count" data-delta="-1" aria-label="Уменьшить">−</button><div class="step-value">${state.count}</div><button class="step-button" data-action="count" data-delta="1" aria-label="Увеличить">+</button></div>
@@ -217,13 +250,13 @@
     const entered = state.active.answers[item.id] || "";
     const position = state.active.position + 1;
     const total = state.active.exerciseIds.length;
+    const answerIsCorrect = revealed && item.answers.some(answer => normalizeAnswer(answer) === normalizeAnswer(entered));
     return `${header("Тренировка", true, false)}
       <section class="slide-in exercise-screen">
         <div class="training-top"><span>${position} / ${total}</span><div class="progress-track"><i style="width:${position / total * 100}%"></i></div></div>
         ${item.taskPhrase ? `<div class="task-instruction">${escapeHtml(item.task)}</div><h1 class="question">${escapeHtml(item.taskPhrase)}</h1>` : `<h1 class="question">${escapeHtml(item.task)}</h1>`}
-        <textarea id="answer" aria-label="Вариант ответа" placeholder="Вводится свой вариант…">${escapeHtml(entered)}</textarea>
-        <div class="autosave-note">Ответ сохраняется автоматически</div>
-        ${revealed ? `<div class="answer-panel"><div class="answer-label">Возможный ответ${item.answers.length > 1 ? "ы" : ""}</div>${item.answers.map(answer => `<div class="answer">${escapeHtml(answer)}</div>`).join("")}</div>` : ""}
+        <textarea id="answer" aria-label="Вариант ответа" placeholder="Введи свой вариант…">${escapeHtml(entered)}</textarea>
+        ${revealed ? `<div class="answer-panel ${answerIsCorrect ? "answer-correct" : "answer-incorrect"}"><div class="answer-label">Возможный ответ${item.answers.length > 1 ? "ы" : ""}</div>${item.answers.map(answer => `<div class="answer">${escapeHtml(answer)}</div>`).join("")}</div>` : ""}
         <div class="exercise-actions">
           ${revealed ? `<button class="primary" data-action="result" data-result="correct">Отметить пройденным</button><button class="result-button needs" data-action="result" data-result="needsPractice">На повторение</button>` : `<button class="primary" data-action="reveal">Ответ</button>`}
         </div>
@@ -252,9 +285,44 @@
     saveStore();
   }
 
+  function focusAnswerField() {
+    requestAnimationFrame(() => {
+      const answerField = app.querySelector("#answer");
+      if (answerField) {
+        answerField.focus();
+        answerField.setSelectionRange(answerField.value.length, answerField.value.length);
+      }
+    });
+  }
+
+  function exercisePickWeight(item) {
+    const passed = Number(store.exercises[item.id]?.correct || 0);
+    if (passed > 10) return 0;
+    if (passed > 8) return 1 / 3;
+    if (passed > 5) return 1 / 2;
+    return 1;
+  }
+
+  function weightedSample(items, count) {
+    const available = items.map(item => ({ item, weight: exercisePickWeight(item) })).filter(entry => entry.weight > 0);
+    const selected = [];
+    while (available.length && selected.length < count) {
+      const totalWeight = available.reduce((sum, entry) => sum + entry.weight, 0);
+      let point = Math.random() * totalWeight;
+      const selectedIndex = available.findIndex(entry => {
+        point -= entry.weight;
+        return point < 0;
+      });
+      const index = selectedIndex === -1 ? available.length - 1 : selectedIndex;
+      selected.push(available[index].item);
+      available.splice(index, 1);
+    }
+    return selected;
+  }
+
   function startTraining() {
     const pool = exercises.filter(item => state.selectedThemes.some(theme => item.themes.includes(theme)));
-    const shuffled = [...pool].sort(() => Math.random() - .5).slice(0, Math.min(state.count, pool.length));
+    const shuffled = weightedSample(pool, Math.min(state.count, pool.length));
     if (!shuffled.length) {
       state.error = "Для выбранных тем пока нет заданий";
       state.screen = "home";
@@ -267,6 +335,7 @@
     persistActive();
     state.screen = "exercise";
     render();
+    focusAnswerField();
     window.scrollTo(0, 0);
   }
 
@@ -292,6 +361,7 @@
       state.active.position += 1;
       persistActive();
       render();
+      focusAnswerField();
       window.scrollTo(0, 0);
       return;
     }
@@ -317,7 +387,7 @@
     }
     if (action === "home") { state.screen = "home"; render(); return; }
     if (action === "setup") { state.error = ""; state.screen = "setup"; render(); return; }
-    if (action === "resume") { state.screen = "exercise"; render(); return; }
+    if (action === "resume") { state.screen = "exercise"; render(); focusAnswerField(); return; }
     if (action === "theme-chip") {
       const theme = target.dataset.theme;
       state.selectedThemes = state.selectedThemes.includes(theme) ? state.selectedThemes.filter(value => value !== theme) : [...state.selectedThemes, theme];
@@ -338,6 +408,15 @@
     state.active.answers[item.id] = event.target.value;
     state.active.updatedAt = new Date().toISOString();
     persistActive();
+  });
+  app.addEventListener("keydown", event => {
+    if ((event.key !== "Enter" && event.code !== "Enter") || event.isComposing || !state.active || event.target.id !== "answer") return;
+    const item = activeExercise();
+    if (!item || state.active.revealed[item.id]) return;
+    const revealButton = app.querySelector('[data-action="reveal"]');
+    if (!revealButton) return;
+    event.preventDefault();
+    revealButton.click();
   });
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden" && state.active) persistActive(); });
 

@@ -38,7 +38,10 @@ Each batch file contains a JSON array of exercise objects:
     "task": "Переведи на грузинский",
     "task_phrase": "Я иду домой",
     "answers": ["მე სახლში მივდივარ."],
-    "themes": ["movement", "present", "basic"]
+    "themes": ["movement_verbs", "be_verb"],
+    "context": ["place_location"],
+    "mode": "ru_to_ka",
+    "skills": ["present"]
   }
 ]
 ```
@@ -49,7 +52,10 @@ Required fields:
 - `task`: instruction describing what the learner should do, for example `Переведи на грузинский`.
 - `task_phrase`: optional phrase or sentence that the learner should transform. When present, the UI shows `task` as the instruction and `task_phrase` as the main exercise text. Older records may omit it; then `task` itself is displayed as the exercise text.
 - `answers`: non-empty array of one or more reference Georgian answers. The first item is the preferred/default answer; additional items are valid alternatives or answer parts where the exercise needs more than one answer field.
-- `themes`: non-empty array of one or more stable theme identifiers.
+- `themes`: non-empty array of one or more canonical user-facing theme identifiers. These are deliberately compact and should normally remain around 6–10 themes rather than one tag per situation.
+- `context`: optional array of situational labels such as `shopping`, `cafe`, or `health`; context labels are not displayed as learning topics.
+- `mode`: exercise format/direction, for example `ru_to_ka`, `ka_to_ru`, or `fill_blank`; this is not a learning topic.
+- `skills`: optional fine-grained grammar or vocabulary labels retained for filtering and analysis; these are not displayed as progress topics.
 - `difficulty`: optional numeric difficulty level retained for future filtering and display.
 
 Theme identifiers are lowercase, concise, and machine-readable. An exercise may belong to multiple themes. Batch files are maintenance chunks only; they must not imply a one-file-per-theme structure.
@@ -60,7 +66,9 @@ The loader must:
 - Validate the required fields and ignore or report malformed exercises without breaking the whole app.
 - Deduplicate exercises by `id`.
 - Preserve the exercise `id` as the identity used by progress tracking.
+- Deduplicate content by stable exercise identity/content before publishing a batch; duplicate UUIDs are invalid and duplicate prompt-answer records should not inflate progress.
 - Treat an exercise as matching a selected theme when that theme exists in its `themes` array.
+- Use `themes` for learning areas, `context` for real-life situations, `mode` for exercise direction/format, and `skills` for detailed grammar metadata.
 - Display all answer values in `answers` in a clear, intentional order; do not assume that only one answer exists.
 - When `task_phrase` exists, display it as the exercise phrase beneath the instruction in `task`.
 
@@ -235,9 +243,10 @@ The simplified MVP should remove mockup elements that imply collaboration: autho
 ### Milestone 1 — Contract and content foundation
 
 - Approve this contract.
-- Add the first exercise batch using the multi-theme schema.
+- Add exercise batches using the multi-theme schema.
 - Define the configured list of batch files.
-- Verify unique IDs, valid themes, and valid JSON.
+- Verify unique IDs, unique prompt-answer content, valid canonical themes, and valid JSON.
+- Keep exercise direction and situational context outside the user-facing theme list.
 
 ### Milestone 2 — Static app shell
 
