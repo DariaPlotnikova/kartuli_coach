@@ -254,8 +254,7 @@
         <div class="section-help">Выбери, насколько сложными будут задания</div>
         <div class="difficulty-panel">
           <div class="difficulty-heading"><span>Легче</span><strong>${difficultyLabel(state.difficulty)}</strong><span>Сложнее</span></div>
-          <input class="difficulty-slider" type="range" min="1" max="4" step="1" value="${state.difficulty}" data-action="difficulty" aria-label="Сложность" aria-valuemin="1" aria-valuemax="4" aria-valuenow="${state.difficulty}" aria-valuetext="${escapeHtml(difficultyLabel(state.difficulty))}">
-          <div class="difficulty-steps" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <input class="difficulty-slider" type="range" min="1" max="4" step="1" value="${state.difficulty}" style="--difficulty-progress: ${(state.difficulty - 1) / 3 * 100}%" data-action="difficulty" aria-label="Сложность" aria-valuemin="1" aria-valuemax="4" aria-valuenow="${state.difficulty}" aria-valuetext="${escapeHtml(difficultyLabel(state.difficulty))}">
         </div>
         <div class="section-label">Количество заданий</div>
         <div class="quantity-panel">
@@ -468,6 +467,7 @@
       if (label) label.textContent = difficultyLabel(state.difficulty);
       event.target.setAttribute("aria-valuenow", String(state.difficulty));
       event.target.setAttribute("aria-valuetext", difficultyLabel(state.difficulty));
+      event.target.style.setProperty("--difficulty-progress", ((state.difficulty - 1) / 3 * 100) + "%");
       return;
     }
     if (event.target.id !== "answer" || !state.active) return;

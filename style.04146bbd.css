@@ -210,12 +210,11 @@ body.dark .progress-island::after { background: rgba(255, 255, 255, .045); }
 .difficulty-heading span:last-child { text-align: right; }
 .difficulty-slider { display: block; width: 100%; height: 24px; margin: 9px 0 1px; appearance: none; background: transparent; cursor: grab; }
 .difficulty-slider:active { cursor: grabbing; }
-.difficulty-slider::-webkit-slider-runnable-track { height: 4px; border-radius: 99px; background: color-mix(in srgb, var(--accent) 28%, var(--line)); }
+.difficulty-slider::-webkit-slider-runnable-track { height: 4px; border-radius: 99px; background: linear-gradient(to right, var(--accent-strong) 0 var(--difficulty-progress), color-mix(in srgb, var(--accent) 28%, var(--line)) var(--difficulty-progress) 100%); }
 .difficulty-slider::-webkit-slider-thumb { width: 20px; height: 20px; margin-top: -8px; appearance: none; border: 3px solid var(--card); border-radius: 50%; background: var(--accent-strong); box-shadow: 0 1px 5px rgba(40, 35, 50, .2); }
 .difficulty-slider::-moz-range-track { height: 4px; border-radius: 99px; background: color-mix(in srgb, var(--accent) 28%, var(--line)); }
+.difficulty-slider::-moz-range-progress { height: 4px; border-radius: 99px; background: var(--accent-strong); }
 .difficulty-slider::-moz-range-thumb { width: 14px; height: 14px; border: 3px solid var(--card); border-radius: 50%; background: var(--accent-strong); box-shadow: 0 1px 5px rgba(40, 35, 50, .2); }
-.difficulty-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; padding: 0 7px; }
-.difficulty-steps i { width: 4px; height: 4px; margin: auto; border-radius: 50%; background: color-mix(in srgb, var(--accent) 45%, var(--line)); }
 
 .training-top { display: flex; align-items: center; gap: 10px; margin-top: 3px; }
 .training-top span { color: var(--muted); font-size: 13px; white-space: nowrap; }
