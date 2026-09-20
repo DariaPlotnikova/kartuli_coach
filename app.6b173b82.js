@@ -32,6 +32,22 @@
     movement_verbs: "🏃"
   };
   const app = document.querySelector("#app");
+  const METRICA_ID = 112838302;
+  let lastTrackedScreen = "";
+
+  function metric(method, ...args) {
+    if (typeof window.ym === "function") window.ym(METRICA_ID, method, ...args);
+  }
+
+  function metricGoal(name, params = {}) {
+    metric("reachGoal", name, params);
+  }
+
+  function trackScreen(screen) {
+    if (lastTrackedScreen === screen) return;
+    lastTrackedScreen = screen;
+    metric("hit", location.pathname + "#" + screen, { title: screen, params: { screen } });
+  }
   const version = document.documentElement.dataset.version || "dev";
   let exercises = [];
   let exerciseById = new Map();
@@ -40,6 +56,7 @@
     screen: "home",
     selectedThemes: [],
     count: 5,
+    difficulty: 1,
     active: store.trainings.active,
     summary: null,
     error: "",
@@ -228,19 +245,29 @@
 
   function setup() {
     const themes = allThemes();
-    if (!state.selectedThemes.length) state.selectedThemes = themes.slice(0, Math.min(3, themes.length));
     return `${header("Новая тренировка", true)}
       <section class="slide-in">
         <div class="section-label">Темы</div>
-        <div class="section-help">Выбирается одна или несколько тем</div>
+        <div class="section-help">Выбери одну или несколько тем</div>
         <div class="topic-cloud">${themes.map(theme => `<button class="topic-chip ${state.selectedThemes.includes(theme) ? "selected" : ""}" data-action="theme-chip" data-theme="${escapeHtml(theme)}"><span class="check">✓</span>${escapeHtml(themeLabel(theme))}</button>`).join("")}</div>
+        <div class="section-label">Сложность</div>
+        <div class="section-help">Выбери, насколько сложными будут задания</div>
+        <div class="difficulty-panel">
+          <div class="difficulty-heading"><span>Легче</span><strong>${difficultyLabel(state.difficulty)}</strong><span>Сложнее</span></div>
+          <input class="difficulty-slider" type="range" min="1" max="4" step="1" value="${state.difficulty}" data-action="difficulty" aria-label="Сложность" aria-valuemin="1" aria-valuemax="4" aria-valuenow="${state.difficulty}" aria-valuetext="${escapeHtml(difficultyLabel(state.difficulty))}">
+          <div class="difficulty-steps" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+        </div>
         <div class="section-label">Количество заданий</div>
         <div class="quantity-panel">
           <div class="stepper"><button class="step-button" data-action="count" data-delta="-1" aria-label="Уменьшить">−</button><div class="step-value">${state.count}</div><button class="step-button" data-action="count" data-delta="1" aria-label="Увеличить">+</button></div>
           <div class="presets">${[5, 8, 10, 15].map(count => `<button class="preset ${state.count === count ? "selected" : ""}" data-action="preset" data-count="${count}">${count}</button>`).join("")}</div>
         </div>
-        <button class="primary" data-action="start" ${state.selectedThemes.length ? "" : "disabled"}>Создание тренировки</button>
+        <button class="primary" data-action="start" ${state.selectedThemes.length ? "" : "disabled"}>Начать тренировку</button>
       </section>`;
+  }
+
+  function difficultyLabel(level) {
+    return ["Только лёгкие", "В основном лёгкие", "Поровну лёгких и средних", "Средние и сложные"][level - 1] || "Только лёгкие";
   }
 
   function exerciseScreen() {
@@ -278,6 +305,7 @@
     if (state.screen === "setup") app.innerHTML = setup();
     if (state.screen === "exercise") app.innerHTML = exerciseScreen();
     if (state.screen === "result") app.innerHTML = resultScreen();
+    trackScreen(state.screen);
   }
 
   function persistActive() {
@@ -303,7 +331,7 @@
     return 1;
   }
 
-  function weightedSample(items, count) {
+  function weightedSampleFromPool(items, count) {
     const available = items.map(item => ({ item, weight: exercisePickWeight(item) })).filter(entry => entry.weight > 0);
     const selected = [];
     while (available.length && selected.length < count) {
@@ -320,6 +348,28 @@
     return selected;
   }
 
+  function weightedSample(items, count) {
+    const ratios = {
+      1: { 1: 1 },
+      2: { 1: 0.75, 2: 0.25 },
+      3: { 1: 0.5, 2: 0.5 },
+      4: { 2: 0.5, 3: 0.5 }
+    }[state.difficulty] || { 1: 1 };
+    const selected = [];
+    let allocated = 0;
+    Object.entries(ratios).forEach(([difficulty, ratio], index, entries) => {
+      const requested = index === entries.length - 1 ? count - allocated : Math.round(count * ratio);
+      const picks = weightedSampleFromPool(items.filter(item => item.difficulty === Number(difficulty) && !selected.includes(item)), requested);
+      selected.push(...picks);
+      allocated += picks.length;
+    });
+    if (selected.length < count) {
+      const allowed = new Set(Object.keys(ratios).map(Number));
+      selected.push(...weightedSampleFromPool(items.filter(item => allowed.has(item.difficulty) && !selected.includes(item)), count - selected.length));
+    }
+    return selected;
+  }
+
   function startTraining() {
     const pool = exercises.filter(item => state.selectedThemes.some(theme => item.themes.includes(theme)));
     const shuffled = weightedSample(pool, Math.min(state.count, pool.length));
@@ -330,6 +380,7 @@
       return;
     }
     if (state.active && state.active.position < state.active.exerciseIds.length && !window.confirm("Замена незавершённой тренировки?")) return;
+    metricGoal("training_start", { themes: state.selectedThemes.join(","), difficulty: state.difficulty, requested_count: state.count, actual_count: shuffled.length });
     state.active = { id: uuid(), exerciseIds: shuffled.map(item => item.id), position: 0, answers: {}, revealed: {}, results: {}, startedAt: new Date().toISOString(), updatedAt: new Date().toISOString() };
     state.error = "";
     persistActive();
@@ -342,6 +393,7 @@
   function recordResult(result) {
     const item = activeExercise();
     if (!item || !state.active) return;
+    metricGoal("exercise_result", { result, difficulty: item.difficulty, position: state.active.position + 1 });
     state.active.results[item.id] = result;
     state.active.updatedAt = new Date().toISOString();
     const record = store.exercises[item.id] || { attempts: 0, correct: 0, incorrect: 0, completed: false, lastAttemptAt: null };
@@ -366,6 +418,7 @@
       return;
     }
     const results = Object.values(state.active.results);
+    metricGoal("training_complete", { total: state.active.exerciseIds.length, completed: Object.values(state.active.results).filter(value => value === "correct").length, needs_practice: Object.values(state.active.results).filter(value => value === "needsPractice").length });
     state.summary = { total: state.active.exerciseIds.length, completed: results.filter(value => value === "correct").length, needsPractice: results.filter(value => value === "needsPractice").length };
     store.trainings.completed += 1;
     store.trainings.lastCompletedAt = new Date().toISOString();
@@ -383,25 +436,40 @@
     const action = target.dataset.action;
     if (action === "theme") {
       store.settings.theme = store.settings.theme === "dark" ? "light" : "dark";
+      metricGoal("theme_toggle", { theme: store.settings.theme });
       saveStore(); render(); return;
     }
-    if (action === "home") { state.screen = "home"; render(); return; }
-    if (action === "setup") { state.error = ""; state.screen = "setup"; render(); return; }
-    if (action === "resume") { state.screen = "exercise"; render(); focusAnswerField(); return; }
+    if (action === "home") {
+      if (state.screen === "setup") metricGoal("training_setup_abandon", { reason: "back", selected_themes: state.selectedThemes.length });
+      if (state.screen === "exercise" && state.active) metricGoal("training_exit", { position: state.active.position + 1, total: state.active.exerciseIds.length });
+      state.screen = "home"; render(); return;
+    }
+    if (action === "setup") { state.error = ""; state.selectedThemes = []; state.screen = "setup"; metricGoal("training_setup_open"); render(); return; }
+    if (action === "resume") { metricGoal("training_resume"); state.screen = "exercise"; render(); focusAnswerField(); return; }
     if (action === "theme-chip") {
       const theme = target.dataset.theme;
       state.selectedThemes = state.selectedThemes.includes(theme) ? state.selectedThemes.filter(value => value !== theme) : [...state.selectedThemes, theme];
+      metricGoal("theme_select", { theme, selected: state.selectedThemes.includes(theme), selected_count: state.selectedThemes.length });
       render(); return;
     }
-    if (action === "count") { state.count = Math.max(1, Math.min(20, state.count + Number(target.dataset.delta))); render(); return; }
-    if (action === "preset") { state.count = Number(target.dataset.count); render(); return; }
+    if (action === "count") { state.count = Math.max(1, Math.min(20, state.count + Number(target.dataset.delta))); metricGoal("training_size_change", { count: state.count }); render(); return; }
+    if (action === "preset") { state.count = Number(target.dataset.count); metricGoal("training_size_change", { count: state.count }); render(); return; }
+    if (action === "difficulty") { state.difficulty = Math.max(1, Math.min(4, Number(target.value))); return; }
     if (action === "start") { startTraining(); return; }
-    if (action === "reveal") { const item = activeExercise(); if (item) { state.active.revealed[item.id] = true; state.active.updatedAt = new Date().toISOString(); persistActive(); render(); } return; }
+    if (action === "reveal") { const item = activeExercise(); if (item) { metricGoal("answer_reveal", { difficulty: item.difficulty, position: state.active.position + 1 }); state.active.revealed[item.id] = true; state.active.updatedAt = new Date().toISOString(); persistActive(); render(); } return; }
     if (action === "result") { recordResult(target.dataset.result); }
   }
 
   app.addEventListener("click", handleAction);
   app.addEventListener("input", event => {
+    if (event.target.matches(".difficulty-slider")) {
+      state.difficulty = Math.max(1, Math.min(4, Number(event.target.value)));
+      const label = app.querySelector(".difficulty-heading strong");
+      if (label) label.textContent = difficultyLabel(state.difficulty);
+      event.target.setAttribute("aria-valuenow", String(state.difficulty));
+      event.target.setAttribute("aria-valuetext", difficultyLabel(state.difficulty));
+      return;
+    }
     if (event.target.id !== "answer" || !state.active) return;
     const item = activeExercise();
     if (!item) return;
@@ -418,7 +486,14 @@
     event.preventDefault();
     revealButton.click();
   });
+  app.addEventListener("change", event => {
+    if (!event.target.matches(".difficulty-slider")) return;
+    metricGoal("difficulty_change", { level: state.difficulty });
+  });
   document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden" && state.active) persistActive(); });
+  window.addEventListener("pagehide", () => {
+    if (state.screen === "setup") metricGoal("training_setup_abandon", { reason: "pagehide", selected_themes: state.selectedThemes.length });
+  });
 
   applyTheme();
   app.innerHTML = `<div class="loading-screen" role="status" aria-label="Загружаем задания">

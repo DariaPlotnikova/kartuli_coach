@@ -204,6 +204,18 @@ body.dark .progress-island::after { background: rgba(255, 255, 255, .045); }
 .presets { display: grid; grid-template-columns: repeat(4, 1fr); gap: 7px; margin-top: 11px; }
 .preset { border: 0; border-radius: 9px; padding: 8px 4px; background: color-mix(in srgb, var(--card) 58%, transparent); color: var(--muted); font-size: 12px; }
 .preset.selected { color: var(--accent-strong); background: var(--card); box-shadow: 0 1px 4px rgba(40, 35, 50, .05); }
+.difficulty-panel { padding: 14px 14px 11px; border: 1px solid color-mix(in srgb, var(--accent) 18%, var(--line)); border-radius: 17px; background: var(--accent2); }
+.difficulty-heading { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px; color: var(--muted); font-size: 12px; }
+.difficulty-heading strong { color: var(--accent-strong); font-size: 12px; font-weight: 600; text-align: center; }
+.difficulty-heading span:last-child { text-align: right; }
+.difficulty-slider { display: block; width: 100%; height: 24px; margin: 9px 0 1px; appearance: none; background: transparent; cursor: grab; }
+.difficulty-slider:active { cursor: grabbing; }
+.difficulty-slider::-webkit-slider-runnable-track { height: 4px; border-radius: 99px; background: color-mix(in srgb, var(--accent) 28%, var(--line)); }
+.difficulty-slider::-webkit-slider-thumb { width: 20px; height: 20px; margin-top: -8px; appearance: none; border: 3px solid var(--card); border-radius: 50%; background: var(--accent-strong); box-shadow: 0 1px 5px rgba(40, 35, 50, .2); }
+.difficulty-slider::-moz-range-track { height: 4px; border-radius: 99px; background: color-mix(in srgb, var(--accent) 28%, var(--line)); }
+.difficulty-slider::-moz-range-thumb { width: 14px; height: 14px; border: 3px solid var(--card); border-radius: 50%; background: var(--accent-strong); box-shadow: 0 1px 5px rgba(40, 35, 50, .2); }
+.difficulty-steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; padding: 0 7px; }
+.difficulty-steps i { width: 4px; height: 4px; margin: auto; border-radius: 50%; background: color-mix(in srgb, var(--accent) 45%, var(--line)); }
 
 .training-top { display: flex; align-items: center; gap: 10px; margin-top: 3px; }
 .training-top span { color: var(--muted); font-size: 13px; white-space: nowrap; }
