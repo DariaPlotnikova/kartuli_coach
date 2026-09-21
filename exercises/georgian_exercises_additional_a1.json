@@ -73,7 +73,7 @@
     "skills": [
       "want"
     ],
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "id": "c751ac18-c0f9-408c-9d71-e4ebbd86cb29",
@@ -111,7 +111,7 @@
     "skills": [
       "have"
     ],
-    "difficulty": 3
+    "difficulty": 2
   },
   {
     "id": "5a8f6903-65e7-487e-8db9-4bc5248a441c",
@@ -206,7 +206,7 @@
     "skills": [
       "perception"
     ],
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "id": "c1a3c561-d4db-4dcf-a623-3936c32ae640",
@@ -225,7 +225,7 @@
     "skills": [
       "perception"
     ],
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "id": "c659f9ff-cddf-41f2-91c8-660ec243cc0a",
@@ -263,7 +263,7 @@
     "skills": [
       "speak"
     ],
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "id": "7ba90862-fcdc-4878-951f-38509cd19a3d",
@@ -282,7 +282,7 @@
     "skills": [
       "speak"
     ],
-    "difficulty": 3
+    "difficulty": 2
   },
   {
     "id": "0b72fc3f-6fc0-40f1-aef9-4b125654714c",
@@ -339,7 +339,7 @@
     "skills": [
       "read"
     ],
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "id": "ebe3db2f-5a8f-43b3-8274-37d884d6bf77",
@@ -358,7 +358,7 @@
     "skills": [
       "write"
     ],
-    "difficulty": 3
+    "difficulty": 2
   },
   {
     "id": "6411ffbd-f21d-4dcb-87f0-0df75d385dad",
@@ -377,7 +377,7 @@
     "skills": [
       "study"
     ],
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "id": "ec8d7646-1e30-4701-9ee7-d839a9538771",
@@ -415,7 +415,7 @@
     "skills": [
       "watch"
     ],
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "id": "fcc605fa-3154-4d64-b7d5-3717c2dccbfe",
@@ -466,7 +466,7 @@
     "skills": [
       "present"
     ],
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "id": "008b3af4-fad4-4814-bbbb-47964773526f",
@@ -521,7 +521,7 @@
     "skills": [
       "past"
     ],
-    "difficulty": 3
+    "difficulty": 2
   },
   {
     "id": "2fd38181-0f72-4c87-8bf6-c3b9a60141ab",
@@ -578,7 +578,7 @@
     "skills": [
       "future"
     ],
-    "difficulty": 3
+    "difficulty": 2
   },
   {
     "id": "da1b86f7-fb43-4ace-a8b6-e17389f4f9d7",
@@ -597,7 +597,7 @@
     "skills": [
       "future"
     ],
-    "difficulty": 3
+    "difficulty": 2
   },
   {
     "id": "d49d8d65-5028-401a-a852-ef2d2fa41745",
@@ -692,7 +692,7 @@
     "skills": [
       "go"
     ],
-    "difficulty": 3
+    "difficulty": 2
   },
   {
     "id": "adf71306-7136-4e2d-ac21-6f8a0e662b50",
@@ -711,7 +711,7 @@
     "skills": [
       "come"
     ],
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "id": "f43cadb7-0bfb-48cf-a834-4afe8ee50418",
@@ -730,7 +730,7 @@
     "skills": [
       "come"
     ],
-    "difficulty": 3
+    "difficulty": 2
   },
   {
     "id": "02200a0b-c984-428d-9b95-1983b681d31d",
@@ -787,7 +787,7 @@
     "skills": [
       "in"
     ],
-    "difficulty": 3
+    "difficulty": 2
   },
   {
     "id": "87d943c2-6ec9-4c17-8fa9-db0c32438d29",
@@ -863,7 +863,7 @@
     "skills": [
       "come"
     ],
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "id": "6d691b1a-8231-4bbe-a41e-ad5abe966fdf",
@@ -1026,7 +1026,7 @@
     "skills": [
       "plural"
     ],
-    "difficulty": 3
+    "difficulty": 1
   },
   {
     "id": "ea2c962f-bb04-450b-95ae-edd689c67839",
@@ -1043,7 +1043,7 @@
     "skills": [
       "plural"
     ],
-    "difficulty": 3
+    "difficulty": 2
   },
   {
     "id": "1934e445-ee9a-4219-80a4-82f5ebf83c1c",
@@ -1179,7 +1179,7 @@
     "skills": [
       "postposition_tvis"
     ],
-    "difficulty": 3
+    "difficulty": 2
   },
   {
     "id": "85f79620-008f-4c06-af23-132d547d1957",
@@ -1251,7 +1251,7 @@
     "skills": [
       "plural"
     ],
-    "difficulty": 3
+    "difficulty": 2
   },
   {
     "id": "3c2831ea-abad-4124-beb2-87f02caa3969",

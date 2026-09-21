@@ -26,7 +26,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -63,7 +63,7 @@
       "possession_cases",
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -82,7 +82,7 @@
       "possession_cases",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -100,7 +100,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -118,7 +118,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -137,7 +137,7 @@
       "feelings_perception",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -177,7 +177,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -511,7 +511,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -530,7 +530,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -548,7 +548,7 @@
     "themes": [
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -623,7 +623,7 @@
     "themes": [
       "feelings_perception"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -722,7 +722,7 @@
       "feelings_perception",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "feelings"
     ],
@@ -838,7 +838,7 @@
       "feelings_perception",
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -858,7 +858,7 @@
       "movement_verbs",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "travel"
     ],
@@ -900,7 +900,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health"
     ],
@@ -920,7 +920,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health",
       "shopping"
@@ -962,7 +962,7 @@
     "themes": [
       "basic_constructions"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -999,7 +999,7 @@
       "questions_communication",
       "movement_verbs"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -1121,7 +1121,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "language"
     ],
@@ -1142,7 +1142,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "language"
     ],
@@ -1207,7 +1207,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "language"
     ],
@@ -1228,7 +1228,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "language"
     ],
@@ -1248,7 +1248,7 @@
       "action_verbs",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [
       "communication"
     ],
@@ -1285,7 +1285,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "communication"
     ],
@@ -1352,7 +1352,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "communication"
     ],
@@ -1394,7 +1394,7 @@
       "time_tenses",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "weather"
     ],
@@ -1415,7 +1415,7 @@
       "place_location",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "weather"
     ],
@@ -1435,7 +1435,7 @@
       "time_tenses",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "weather"
     ],
@@ -1455,7 +1455,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "weather"
     ],
@@ -1475,7 +1475,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "weather"
     ],
@@ -1515,7 +1515,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [
       "home"
     ],
@@ -1535,7 +1535,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "home"
     ],
@@ -1555,7 +1555,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "home"
     ],
@@ -1595,7 +1595,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "home"
     ],
@@ -1615,7 +1615,7 @@
       "place_location",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "home"
     ],
@@ -1635,7 +1635,7 @@
       "place_location",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "home"
     ],
@@ -1654,7 +1654,7 @@
     "themes": [
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -1691,7 +1691,7 @@
       "place_location",
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -1751,7 +1751,7 @@
       "movement_verbs",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -1771,7 +1771,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -1832,7 +1832,7 @@
     "themes": [
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -1850,7 +1850,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -1869,7 +1869,7 @@
       "movement_verbs",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -1888,7 +1888,7 @@
       "be_verb",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -1927,7 +1927,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -1947,7 +1947,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -1967,7 +1967,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -2010,7 +2010,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "food"
     ],
@@ -2031,7 +2031,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [
       "food"
     ],
@@ -2049,7 +2049,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -2069,7 +2069,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -2089,7 +2089,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -2109,7 +2109,7 @@
       "feelings_perception",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "food",
       "health"
@@ -2131,7 +2131,7 @@
       "possession_cases",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "food"
     ],
@@ -2197,7 +2197,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -2218,7 +2218,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -2236,7 +2236,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -2274,7 +2274,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -2339,7 +2339,7 @@
       "time_tenses",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "appointments"
     ],
@@ -2359,7 +2359,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "appointments",
       "health"
@@ -2378,7 +2378,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "appointments"
     ],
@@ -2419,7 +2419,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health"
     ],
@@ -2437,7 +2437,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health"
     ],
@@ -2455,7 +2455,7 @@
       "feelings_perception",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health"
     ],
@@ -2475,7 +2475,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health"
     ],
@@ -2495,7 +2495,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [
       "health"
     ],
@@ -2555,7 +2555,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health"
     ],
@@ -2575,7 +2575,7 @@
       "questions_communication",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2610,7 +2610,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2627,7 +2627,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2678,7 +2678,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2695,7 +2695,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2729,7 +2729,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2746,7 +2746,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2763,7 +2763,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2814,7 +2814,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2831,7 +2831,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2865,7 +2865,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2882,7 +2882,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2899,7 +2899,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2950,7 +2950,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -2967,7 +2967,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3001,7 +3001,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3018,7 +3018,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3035,7 +3035,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3086,7 +3086,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3103,7 +3103,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3137,7 +3137,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3154,7 +3154,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3171,7 +3171,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3188,7 +3188,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3205,7 +3205,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3222,7 +3222,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3239,7 +3239,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3256,7 +3256,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3273,7 +3273,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3290,7 +3290,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3307,7 +3307,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3324,7 +3324,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3341,7 +3341,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3358,7 +3358,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3375,7 +3375,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3392,7 +3392,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3409,7 +3409,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3426,7 +3426,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3443,7 +3443,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3460,7 +3460,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3477,7 +3477,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3494,7 +3494,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3511,7 +3511,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3528,7 +3528,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3545,7 +3545,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3562,7 +3562,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3579,7 +3579,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3596,7 +3596,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3614,7 +3614,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3633,7 +3633,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3652,7 +3652,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3690,7 +3690,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3709,7 +3709,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3728,7 +3728,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3747,7 +3747,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3766,7 +3766,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3785,7 +3785,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3804,7 +3804,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3842,7 +3842,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3861,7 +3861,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3880,7 +3880,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3899,7 +3899,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3918,7 +3918,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3937,7 +3937,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3956,7 +3956,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -3994,7 +3994,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4013,7 +4013,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4032,7 +4032,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4070,7 +4070,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4108,7 +4108,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4127,7 +4127,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4146,7 +4146,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4165,7 +4165,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4184,7 +4184,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4203,7 +4203,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4222,7 +4222,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4241,7 +4241,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4260,7 +4260,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4298,7 +4298,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4336,7 +4336,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4355,7 +4355,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4374,7 +4374,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4393,7 +4393,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4412,7 +4412,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4469,7 +4469,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4488,7 +4488,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4507,7 +4507,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -4527,7 +4527,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -4547,7 +4547,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -4567,7 +4567,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -4587,7 +4587,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -4647,7 +4647,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -4667,7 +4667,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -4687,7 +4687,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -4707,7 +4707,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -4727,7 +4727,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -4766,7 +4766,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4804,7 +4804,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4823,7 +4823,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4842,7 +4842,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4880,7 +4880,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4918,7 +4918,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4937,7 +4937,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4956,7 +4956,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -4994,7 +4994,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -5070,7 +5070,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -5108,7 +5108,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -5184,7 +5184,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -5222,7 +5222,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -5298,7 +5298,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -5336,7 +5336,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -5450,7 +5450,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -5564,7 +5564,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -5678,7 +5678,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -6128,7 +6128,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "transport"
     ],
@@ -6418,7 +6418,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -6454,7 +6454,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -6510,7 +6510,7 @@
       "possession_cases",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -6528,7 +6528,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -6546,7 +6546,7 @@
       "feelings_perception",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -6586,7 +6586,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -6860,7 +6860,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -6879,7 +6879,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -6897,7 +6897,7 @@
     "themes": [
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -6935,7 +6935,7 @@
     "themes": [
       "feelings_perception"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -7151,7 +7151,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health"
     ],
@@ -7171,7 +7171,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health",
       "shopping"
@@ -7213,7 +7213,7 @@
     "themes": [
       "basic_constructions"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -7250,7 +7250,7 @@
       "questions_communication",
       "movement_verbs"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -7351,7 +7351,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "language"
     ],
@@ -7372,7 +7372,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "language"
     ],
@@ -7437,7 +7437,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "language"
     ],
@@ -7457,7 +7457,7 @@
       "action_verbs",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "communication"
     ],
@@ -7517,7 +7517,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "communication"
     ],
@@ -7559,7 +7559,7 @@
       "time_tenses",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "weather"
     ],
@@ -7580,7 +7580,7 @@
       "place_location",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "weather"
     ],
@@ -7640,7 +7640,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [
       "home"
     ],
@@ -7700,7 +7700,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "home"
     ],
@@ -7720,7 +7720,7 @@
       "place_location",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "home"
     ],
@@ -7740,7 +7740,7 @@
       "place_location",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "home"
     ],
@@ -7759,7 +7759,7 @@
     "themes": [
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -7777,7 +7777,7 @@
       "place_location",
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -7815,7 +7815,7 @@
       "movement_verbs",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -7835,7 +7835,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -7896,7 +7896,7 @@
     "themes": [
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -7914,7 +7914,7 @@
       "movement_verbs",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -7933,7 +7933,7 @@
       "be_verb",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -7972,7 +7972,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -7993,7 +7993,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "food"
     ],
@@ -8014,7 +8014,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [
       "food"
     ],
@@ -8032,7 +8032,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -8052,7 +8052,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -8072,7 +8072,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -8092,7 +8092,7 @@
       "feelings_perception",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "food",
       "health"
@@ -8114,7 +8114,7 @@
       "possession_cases",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "food"
     ],
@@ -8179,7 +8179,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -8217,7 +8217,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -8238,7 +8238,7 @@
       "time_tenses",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "appointments"
     ],
@@ -8258,7 +8258,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "appointments",
       "health"
@@ -8277,7 +8277,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "appointments"
     ],
@@ -8318,7 +8318,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health"
     ],
@@ -8336,7 +8336,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health"
     ],
@@ -8356,7 +8356,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [
       "health"
     ],
@@ -8415,7 +8415,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8432,7 +8432,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8449,7 +8449,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8466,7 +8466,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8500,7 +8500,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8551,7 +8551,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8585,7 +8585,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8602,7 +8602,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8619,7 +8619,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8670,7 +8670,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8704,7 +8704,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8721,7 +8721,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8738,7 +8738,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8789,7 +8789,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8806,7 +8806,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8840,7 +8840,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8857,7 +8857,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8874,7 +8874,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8891,7 +8891,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8908,7 +8908,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8925,7 +8925,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8942,7 +8942,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8959,7 +8959,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8976,7 +8976,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -8993,7 +8993,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9010,7 +9010,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9027,7 +9027,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9044,7 +9044,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9061,7 +9061,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9078,7 +9078,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9095,7 +9095,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9112,7 +9112,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9129,7 +9129,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9146,7 +9146,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9163,7 +9163,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9180,7 +9180,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9198,7 +9198,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9217,7 +9217,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9236,7 +9236,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9255,7 +9255,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9274,7 +9274,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9293,7 +9293,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9312,7 +9312,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9331,7 +9331,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9350,7 +9350,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9369,7 +9369,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9388,7 +9388,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9407,7 +9407,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9426,7 +9426,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9445,7 +9445,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9502,7 +9502,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9540,7 +9540,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9559,7 +9559,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9597,7 +9597,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9711,7 +9711,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9787,7 +9787,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -9806,7 +9806,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -9826,7 +9826,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -9846,7 +9846,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -9866,7 +9866,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -9886,7 +9886,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -9926,7 +9926,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -9946,7 +9946,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -9966,7 +9966,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -9986,7 +9986,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -10006,7 +10006,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -10045,7 +10045,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -10102,7 +10102,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -10159,7 +10159,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -10235,7 +10235,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -10311,7 +10311,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -10425,7 +10425,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -10596,7 +10596,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -10710,7 +10710,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -11262,7 +11262,7 @@
       "time_tenses",
       "basic_constructions"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "fill_blank",
     "skills": [
@@ -11303,7 +11303,7 @@
       "be_verb",
       "basic_constructions"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "fill_blank",
     "skills": [
@@ -11344,7 +11344,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "feelings"
     ],
@@ -11366,7 +11366,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "feelings"
     ],
@@ -11837,7 +11837,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -11855,7 +11855,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -11873,7 +11873,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -11891,7 +11891,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -11909,7 +11909,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -11927,7 +11927,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -12202,7 +12202,7 @@
       "feelings_perception",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "feelings"
     ],
@@ -12264,7 +12264,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "language"
     ],
@@ -12328,7 +12328,7 @@
       "time_tenses",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "weather"
     ],
@@ -12348,7 +12348,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "weather"
     ],
@@ -12448,7 +12448,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -12468,7 +12468,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "cafe"
     ],
@@ -12511,7 +12511,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -12532,7 +12532,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "shopping"
     ],
@@ -12594,7 +12594,7 @@
       "basic_constructions",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health"
     ],
@@ -12612,7 +12612,7 @@
       "feelings_perception",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health"
     ],
@@ -12632,7 +12632,7 @@
       "be_verb",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "health"
     ],
@@ -12652,7 +12652,7 @@
       "questions_communication",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12721,7 +12721,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12738,7 +12738,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12755,7 +12755,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12772,7 +12772,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12789,7 +12789,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12806,7 +12806,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12823,7 +12823,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12840,7 +12840,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12857,7 +12857,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12874,7 +12874,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12891,7 +12891,7 @@
     "themes": [
       "possession_cases"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12928,7 +12928,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12947,7 +12947,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12966,7 +12966,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -12985,7 +12985,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -13023,7 +13023,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -13061,7 +13061,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -13137,7 +13137,7 @@
       "questions_communication",
       "place_location"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -13214,7 +13214,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -13271,7 +13271,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -13404,7 +13404,7 @@
       "time_tenses",
       "be_verb"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -13646,7 +13646,7 @@
       "questions_communication",
       "everyday_situations"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [
       "transport"
     ],
@@ -13833,7 +13833,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -14304,7 +14304,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -14322,7 +14322,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -14340,7 +14340,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 1,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -14358,7 +14358,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -14376,7 +14376,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -14394,7 +14394,7 @@
     "themes": [
       "questions_communication"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ka_to_ru",
     "skills": [
@@ -14657,7 +14657,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -14747,7 +14747,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -14791,7 +14791,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -14881,7 +14881,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -14925,7 +14925,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -15015,7 +15015,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -15059,7 +15059,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -15103,7 +15103,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -15147,7 +15147,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -15191,7 +15191,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -15235,7 +15235,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -15279,7 +15279,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
@@ -15323,7 +15323,7 @@
       "be_verb",
       "time_tenses"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "context": [],
     "mode": "ru_to_ka",
     "skills": [
