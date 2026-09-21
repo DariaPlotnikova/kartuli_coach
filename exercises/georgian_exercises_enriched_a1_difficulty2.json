@@ -1,0 +1,921 @@
+[
+  {
+    "id": "4fd4a7db-8f73-4d46-9c2d-1f3151f8b201",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я сегодня не работаю, потому что у моего брата день рождения",
+    "answers": [
+      "დღეს არ ვმუშაობ, იმიტომ რომ ჩემს ძმას დაბადების დღე აქვს"
+    ],
+    "themes": [
+      "time_tenses",
+      "everyday_situations",
+      "possession_cases"
+    ],
+    "context": [
+      "family",
+      "work"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "because",
+      "have",
+      "family"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "1b79c3a7-3032-4d42-9bf3-94cf84f0628d",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Его старшая сестра завтра идёт в школу",
+    "answers": [
+      "მისი უფროსი და ხვალ სკოლაში მიდის"
+    ],
+    "themes": [
+      "movement_verbs",
+      "time_tenses",
+      "possession_cases"
+    ],
+    "context": [
+      "family",
+      "school"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "possessive_pronouns",
+      "movement",
+      "school"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "caedcf2a-54cf-4ef2-9346-96074eb2150b",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Завтра я не иду в школу, потому что иду к врачу",
+    "answers": [
+      "ხვალ სკოლაში არ მივდივარ, იმიტომ რომ ექიმთან მივდივარ"
+    ],
+    "themes": [
+      "movement_verbs",
+      "time_tenses",
+      "everyday_situations"
+    ],
+    "context": [
+      "school",
+      "doctor"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "because",
+      "movement",
+      "postposition_tan"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "efaf3775-f877-4295-99cd-1e2312fcaad0",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Мой младший брат заходит в ту комнату, а я поднимаюсь по этой лестнице",
+    "answers": [
+      "ჩემი პატარა ძმა იმ ოთახში შედის, მე კი ამ კიბეზე ავდივარ"
+    ],
+    "themes": [
+      "movement_verbs",
+      "place_location",
+      "possession_cases"
+    ],
+    "context": [
+      "home"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "demonstratives",
+      "movement_prefixes",
+      "possessive_pronouns"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "7797d942-a856-4f98-9d25-a7e6b2ef9e8a",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Я делаю кофе для мамы, потому что мама сегодня работает",
+    "answers": [
+      "დედისთვის ყავას ვაკეთებ, იმიტომ რომ დედა დღეს მუშაობს"
+    ],
+    "themes": [
+      "action_verbs",
+      "time_tenses",
+      "everyday_situations"
+    ],
+    "context": [
+      "family",
+      "work"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "for_postposition",
+      "because",
+      "action_verbs"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "51946cd3-634e-4b85-8d03-d5ca0da38041",
+    "task": "Переведи на грузинский",
+    "task_phrase": "У нашего друга много книг, но у него нет времени",
+    "answers": [
+      "ჩვენს მეგობარს ბევრი წიგნი აქვს, მაგრამ დრო არ აქვს"
+    ],
+    "themes": [
+      "possession_cases",
+      "basic_constructions",
+      "time_tenses"
+    ],
+    "context": [
+      "friends"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "have",
+      "but",
+      "possessive_pronouns"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "1efe9cc4-eb0e-4c6e-ab65-e190f887af3c",
+    "task": "Переведи на грузинский",
+    "task_phrase": "В воскресенье мы будем в деревне, потому что у дедушки там старый дом",
+    "answers": [
+      "კვირას სოფელში ვიქნებით, იმიტომ რომ პაპას იქ ძველი სახლი აქვს"
+    ],
+    "themes": [
+      "time_tenses",
+      "place_location",
+      "possession_cases"
+    ],
+    "context": [
+      "family",
+      "village"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "future_be",
+      "because",
+      "genitive"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "51c78364-b467-40f6-a434-ec313073798d",
+    "task": "Переведи на грузинский",
+    "task_phrase": "В том магазине нет хлеба, поэтому я иду на этот рынок",
+    "answers": [
+      "იმ მაღაზიაში პური არ არის, ამიტომ ამ ბაზარზე მივდივარ"
+    ],
+    "themes": [
+      "place_location",
+      "movement_verbs",
+      "basic_constructions"
+    ],
+    "context": [
+      "shopping"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "demonstratives",
+      "negation",
+      "movement"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "846e81be-39cd-474c-ad2f-a05ef07c8d79",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Папа дома, но его машина возле офиса",
+    "answers": [
+      "მამა სახლშია, მაგრამ მისი მანქანა ოფისთან არის"
+    ],
+    "themes": [
+      "place_location",
+      "possession_cases",
+      "be_verb"
+    ],
+    "context": [
+      "family",
+      "work"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "but",
+      "possessive_pronouns",
+      "postposition_tan"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "0d6739b7-4eb8-4a8c-8480-fc2f6e24cc0a",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Этот чай для моей сестры, а тот кофе для твоего брата",
+    "answers": [
+      "ეს ჩაი ჩემი დისთვისაა, ის ყავა კი შენი ძმისთვისაა"
+    ],
+    "themes": [
+      "possession_cases",
+      "basic_constructions",
+      "everyday_situations"
+    ],
+    "context": [
+      "family",
+      "cafe"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "for_postposition",
+      "genitive",
+      "demonstratives"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "e00fe234-5ac1-4a6d-a6f8-14eb245524aa",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Почему ты выходишь из этой комнаты, если там тепло?",
+    "answers": [
+      "რატომ გამოდიხარ ამ ოთახიდან, თუ იქ თბილა?"
+    ],
+    "themes": [
+      "questions_communication",
+      "movement_verbs",
+      "place_location"
+    ],
+    "context": [
+      "home"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "why",
+      "if",
+      "movement_prefixes"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "d3d85857-dd77-4d3e-bca7-e0ecbd8f5bcb",
+    "task": "Переведи на грузинский",
+    "task_phrase": "Мы тоже хотим воду, потому что сегодня очень жарко",
+    "answers": [
+      "ჩვენც წყალი გვინდა, იმიტომ რომ დღეს ძალიან ცხელა"
+    ],
+    "themes": [
+      "feelings_perception",
+      "time_tenses",
+      "everyday_situations"
+    ],
+    "context": [
+      "weather",
+      "cafe"
+    ],
+    "mode": "ru_to_ka",
+    "skills": [
+      "also_particle",
+      "want_plural",
+      "because"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "f75d66d8-41f9-4d37-828d-d7d9b4f3c4fa",
+    "task": "Переведи на русский",
+    "task_phrase": "ჩემი ძმა დღეს არ მუშაობს, იმიტომ რომ მას დაბადების დღე აქვს",
+    "answers": [
+      "Мой брат сегодня не работает, потому что у него день рождения"
+    ],
+    "themes": [
+      "time_tenses",
+      "everyday_situations",
+      "possession_cases"
+    ],
+    "context": [
+      "family",
+      "work"
+    ],
+    "mode": "ka_to_ru",
+    "skills": [
+      "because",
+      "have",
+      "family"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "27e7906c-7a3a-42ca-a0ad-f4d9a6724337",
+    "task": "Переведи на русский",
+    "task_phrase": "მისი უფროსი და ხვალ სკოლაში მიდის",
+    "answers": [
+      "Его старшая сестра завтра идёт в школу",
+      "Её старшая сестра завтра идёт в школу"
+    ],
+    "themes": [
+      "movement_verbs",
+      "time_tenses",
+      "possession_cases"
+    ],
+    "context": [
+      "family",
+      "school"
+    ],
+    "mode": "ka_to_ru",
+    "skills": [
+      "possessive_pronouns",
+      "movement",
+      "school"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "6da8bb8d-6f2c-4bfc-a139-5e55c6ddd2fd",
+    "task": "Переведи на русский",
+    "task_phrase": "ხვალ სკოლაში არ მივდივარ, იმიტომ რომ ექიმთან მივდივარ",
+    "answers": [
+      "Завтра я не иду в школу, потому что иду к врачу"
+    ],
+    "themes": [
+      "movement_verbs",
+      "time_tenses",
+      "everyday_situations"
+    ],
+    "context": [
+      "school",
+      "doctor"
+    ],
+    "mode": "ka_to_ru",
+    "skills": [
+      "because",
+      "movement",
+      "postposition_tan"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "2628df0b-77ad-499e-88c1-f03fd9866561",
+    "task": "Переведи на русский",
+    "task_phrase": "ჩვენ ხვალ კაფეში ვიქნებით, მაგრამ ჩემი მეგობარი სახლში იქნება",
+    "answers": [
+      "Мы завтра будем в кафе, но мой друг будет дома",
+      "Мы завтра будем в кафе, но моя подруга будет дома"
+    ],
+    "themes": [
+      "time_tenses",
+      "place_location",
+      "possession_cases"
+    ],
+    "context": [
+      "friends",
+      "cafe"
+    ],
+    "mode": "ka_to_ru",
+    "skills": [
+      "future_be",
+      "but",
+      "possessive_pronouns"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "5045a3a7-13f7-49bc-bc9a-5b028d3dbb81",
+    "task": "Переведи на русский",
+    "task_phrase": "გოგოს ჩანთა მაგიდაზეა, მაგრამ ბიჭის ჩანთა სკამზეა",
+    "answers": [
+      "Сумка девочки на столе, но сумка мальчика на стуле"
+    ],
+    "themes": [
+      "possession_cases",
+      "place_location",
+      "basic_constructions"
+    ],
+    "context": [
+      "home"
+    ],
+    "mode": "ka_to_ru",
+    "skills": [
+      "genitive",
+      "postpositions",
+      "but"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "409cb55b-3426-4ccf-8f6f-5249b264ff80",
+    "task": "Переведи на русский",
+    "task_phrase": "მათ წყალი უნდათ თუ ჩაი?",
+    "answers": [
+      "Они хотят воду или чай?",
+      "Им нужна вода или чай?"
+    ],
+    "themes": [
+      "feelings_perception",
+      "questions_communication",
+      "everyday_situations"
+    ],
+    "context": [
+      "cafe"
+    ],
+    "mode": "ka_to_ru",
+    "skills": [
+      "want_plural",
+      "or"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "9a0c32fe-9131-42a1-bcd8-4e8409456e31",
+    "task": "Переведи на русский",
+    "task_phrase": "რატომ მიდიხარ ექიმთან?",
+    "answers": [
+      "Почему ты идёшь к врачу?"
+    ],
+    "themes": [
+      "questions_communication",
+      "movement_verbs",
+      "everyday_situations"
+    ],
+    "context": [
+      "doctor"
+    ],
+    "mode": "ka_to_ru",
+    "skills": [
+      "why",
+      "postposition_tan",
+      "movement"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "efa0dde3-2339-4d5f-a696-2de8f15d8738",
+    "task": "Переведи на русский",
+    "task_phrase": "იმ მაღაზიაში პური არ არის, ამიტომ ამ ბაზარზე მივდივარ",
+    "answers": [
+      "В том магазине нет хлеба, поэтому я иду на этот рынок"
+    ],
+    "themes": [
+      "place_location",
+      "movement_verbs",
+      "basic_constructions"
+    ],
+    "context": [
+      "shopping"
+    ],
+    "mode": "ka_to_ru",
+    "skills": [
+      "demonstratives",
+      "negation",
+      "movement"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "2933d751-7ba3-4a1d-8206-6671f0cf6dd6",
+    "task": "Переведи на русский",
+    "task_phrase": "ეს ჩაი ჩემი დისთვისაა, ის ყავა კი შენი ძმისთვისაა",
+    "answers": [
+      "Этот чай для моей сестры, а тот кофе для твоего брата"
+    ],
+    "themes": [
+      "possession_cases",
+      "basic_constructions",
+      "everyday_situations"
+    ],
+    "context": [
+      "family",
+      "cafe"
+    ],
+    "mode": "ka_to_ru",
+    "skills": [
+      "for_postposition",
+      "genitive",
+      "demonstratives"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "0933b1bb-7d5d-41fc-ab95-ffcd79a633dd",
+    "task": "Заполни пропуск",
+    "task_phrase": "ჩემს ძმას დაბადების დღე ___.",
+    "answers": [
+      "აქვს",
+      "ჩემს ძმას დაბადების დღე აქვს"
+    ],
+    "themes": [
+      "possession_cases",
+      "everyday_situations"
+    ],
+    "context": [
+      "family",
+      "birthday"
+    ],
+    "mode": "fill_blank",
+    "skills": [
+      "have",
+      "dative_subject"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "b49e0852-3c78-4b6e-ad83-2d2c230647d1",
+    "task": "Заполни пропуск",
+    "task_phrase": "მისი უფროსი და ხვალ სკოლაში ___.",
+    "answers": [
+      "მიდის",
+      "მისი უფროსი და ხვალ სკოლაში მიდის"
+    ],
+    "themes": [
+      "movement_verbs",
+      "time_tenses"
+    ],
+    "context": [
+      "family",
+      "school"
+    ],
+    "mode": "fill_blank",
+    "skills": [
+      "movement",
+      "third_person"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "cb56fac7-82a8-477c-b52b-598bfc35ad71",
+    "task": "Заполни пропуск",
+    "task_phrase": "მე დედასთან ___, იმიტომ რომ დედას ჩაი უნდა.",
+    "answers": [
+      "მივდივარ",
+      "მე დედასთან მივდივარ, იმიტომ რომ დედას ჩაი უნდა"
+    ],
+    "themes": [
+      "movement_verbs",
+      "feelings_perception",
+      "everyday_situations"
+    ],
+    "context": [
+      "family"
+    ],
+    "mode": "fill_blank",
+    "skills": [
+      "movement",
+      "postposition_tan",
+      "because"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "873363c2-66d7-41b3-a48e-9821da29bd4f",
+    "task": "Заполни пропуск",
+    "task_phrase": "ეს ყავა ჩემი მეგობრისთვის___.",
+    "answers": [
+      "აა",
+      "ეს ყავა ჩემი მეგობრისთვისაა"
+    ],
+    "themes": [
+      "possession_cases",
+      "be_verb",
+      "everyday_situations"
+    ],
+    "context": [
+      "friends",
+      "cafe"
+    ],
+    "mode": "fill_blank",
+    "skills": [
+      "for_postposition",
+      "short_be"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "a66f63d6-bf5b-4c85-8ff0-b5c40d1b7632",
+    "task": "Заполни пропуск",
+    "task_phrase": "მე ამ ___ შევდივარ, იმიტომ რომ იქ ჩემი ჩანთაა.",
+    "answers": [
+      "ოთახში",
+      "მე ამ ოთახში შევდივარ, იმიტომ რომ იქ ჩემი ჩანთაა"
+    ],
+    "themes": [
+      "movement_verbs",
+      "place_location",
+      "possession_cases"
+    ],
+    "context": [
+      "home"
+    ],
+    "mode": "fill_blank",
+    "skills": [
+      "demonstratives",
+      "postposition_shi",
+      "because"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "323ba6d4-c3c1-4053-b9fb-c5a95c17aa8e",
+    "task": "Заполни пропуск",
+    "task_phrase": "ჩვენ კაფეში ___, მაგრამ ისინი სახლში იქნებიან.",
+    "answers": [
+      "ვიქნებით",
+      "ჩვენ კაფეში ვიქნებით, მაგრამ ისინი სახლში იქნებიან"
+    ],
+    "themes": [
+      "time_tenses",
+      "be_verb",
+      "place_location"
+    ],
+    "context": [
+      "cafe",
+      "home"
+    ],
+    "mode": "fill_blank",
+    "skills": [
+      "future_be",
+      "but"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "d2a21761-c34a-4cec-ae97-1f1f643d1e7b",
+    "task": "Исправь ошибку",
+    "task_phrase": "მე მივდივარ დედათან, იმიტომ რომ დედას ყავა უნდა.",
+    "answers": [
+      "მე მივდივარ დედასთან, იმიტომ რომ დედას ყავა უნდა",
+      "დედათან -> დედასთან"
+    ],
+    "themes": [
+      "movement_verbs",
+      "possession_cases",
+      "everyday_situations"
+    ],
+    "context": [
+      "family"
+    ],
+    "mode": "repair_error",
+    "skills": [
+      "postposition_tan",
+      "because"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "0d8e830f-d901-427b-8962-8c7518ff223e",
+    "task": "Исправь ошибку",
+    "task_phrase": "ის ხვალ სკოლაში მიდიხარ.",
+    "answers": [
+      "ის ხვალ სკოლაში მიდის",
+      "მიდიხარ -> მიდის"
+    ],
+    "themes": [
+      "movement_verbs",
+      "time_tenses"
+    ],
+    "context": [
+      "school"
+    ],
+    "mode": "repair_error",
+    "skills": [
+      "movement",
+      "third_person"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "eb5d8e9f-9f91-4960-baa8-c4b12c3ee241",
+    "task": "Исправь ошибку",
+    "task_phrase": "ჩვენ გინდათ ყავა, იმიტომ რომ დღეს ცხელა.",
+    "answers": [
+      "ჩვენ გვინდა ყავა, იმიტომ რომ დღეს ცხელა",
+      "გინდათ -> გვინდა"
+    ],
+    "themes": [
+      "feelings_perception",
+      "basic_constructions",
+      "time_tenses"
+    ],
+    "context": [
+      "cafe",
+      "weather"
+    ],
+    "mode": "repair_error",
+    "skills": [
+      "want_plural",
+      "because"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "3a9d3064-035c-4846-ad31-fd159aa00ebc",
+    "task": "Исправь ошибку",
+    "task_phrase": "ეს მისი უფროსი დას ჩანთაა.",
+    "answers": [
+      "ეს მისი უფროსი დის ჩანთაა",
+      "დას -> დის"
+    ],
+    "themes": [
+      "possession_cases",
+      "basic_constructions"
+    ],
+    "context": [
+      "family"
+    ],
+    "mode": "repair_error",
+    "skills": [
+      "genitive",
+      "family"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "a7de1bbd-3889-42a2-a7ce-6aff9d4a8cc6",
+    "task": "Исправь ошибку",
+    "task_phrase": "მე შევდივარ ეს ოთახში, იმიტომ რომ იქ თბილა.",
+    "answers": [
+      "მე შევდივარ ამ ოთახში, იმიტომ რომ იქ თბილა",
+      "ეს ოთახში -> ამ ოთახში"
+    ],
+    "themes": [
+      "movement_verbs",
+      "place_location"
+    ],
+    "context": [
+      "home"
+    ],
+    "mode": "repair_error",
+    "skills": [
+      "demonstratives",
+      "postposition_shi",
+      "because"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bd859b78-ac92-4fe8-ae7b-4c661dfcb682",
+    "task": "Исправь ошибку",
+    "task_phrase": "ისინი ხვალ ქალაქში იქნება.",
+    "answers": [
+      "ისინი ხვალ ქალაქში იქნებიან",
+      "იქნება -> იქნებიან"
+    ],
+    "themes": [
+      "time_tenses",
+      "be_verb",
+      "place_location"
+    ],
+    "context": [
+      "city"
+    ],
+    "mode": "repair_error",
+    "skills": [
+      "future_be",
+      "plural"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "9a29ffc8-5503-409b-86bc-d3caef695bd1",
+    "task": "Ответь по-грузински",
+    "task_phrase": "Почему ты сегодня не работаешь? - Потому что у моего брата день рождения.",
+    "answers": [
+      "რატომ არ მუშაობ დღეს? - იმიტომ რომ ჩემს ძმას დაბადების დღე აქვს",
+      "დღეს არ ვმუშაობ, იმიტომ რომ ჩემს ძმას დაბადების დღე აქვს"
+    ],
+    "themes": [
+      "questions_communication",
+      "time_tenses",
+      "everyday_situations"
+    ],
+    "context": [
+      "family",
+      "work"
+    ],
+    "mode": "dialogue_response",
+    "skills": [
+      "why",
+      "because",
+      "have"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "28f41b7c-2f94-4053-b143-dfca3acdb41e",
+    "task": "Ответь по-грузински",
+    "task_phrase": "Куда идёт его старшая сестра завтра? - В школу.",
+    "answers": [
+      "მისი უფროსი და ხვალ სად მიდის? - სკოლაში",
+      "მისი უფროსი და ხვალ სკოლაში მიდის"
+    ],
+    "themes": [
+      "questions_communication",
+      "movement_verbs",
+      "time_tenses"
+    ],
+    "context": [
+      "family",
+      "school"
+    ],
+    "mode": "dialogue_response",
+    "skills": [
+      "where",
+      "movement",
+      "school"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "ac069704-d20a-449b-acba-86d7fd89289a",
+    "task": "Собери фразу по смыслу",
+    "task_phrase": "этот рынок + нет сыра + поэтому + иду в магазин",
+    "answers": [
+      "ამ ბაზარზე ყველი არ არის, ამიტომ მაღაზიაში მივდივარ"
+    ],
+    "themes": [
+      "place_location",
+      "movement_verbs",
+      "everyday_situations"
+    ],
+    "context": [
+      "shopping"
+    ],
+    "mode": "build_sentence",
+    "skills": [
+      "demonstratives",
+      "negation",
+      "movement"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "a4a7b740-e837-40bc-b2c1-658086aa9bdc",
+    "task": "Собери фразу по смыслу",
+    "task_phrase": "мы + завтра + у друга + будем, потому что + его дом + большой",
+    "answers": [
+      "ჩვენ ხვალ მეგობართან ვიქნებით, იმიტომ რომ მისი სახლი დიდია"
+    ],
+    "themes": [
+      "time_tenses",
+      "place_location",
+      "possession_cases"
+    ],
+    "context": [
+      "friends",
+      "home"
+    ],
+    "mode": "build_sentence",
+    "skills": [
+      "future_be",
+      "postposition_tan",
+      "because"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "fdeed65c-8648-4356-92f7-e4913815a22f",
+    "task": "Выбери правильную грузинскую фразу",
+    "task_phrase": "У моего брата сегодня день рождения: ჩემს ძმას / ჩემი ძმა",
+    "answers": [
+      "ჩემს ძმას დღეს დაბადების დღე აქვს",
+      "нужно: ჩემს ძმას"
+    ],
+    "themes": [
+      "possession_cases",
+      "everyday_situations"
+    ],
+    "context": [
+      "family",
+      "birthday"
+    ],
+    "mode": "choose_form",
+    "skills": [
+      "dative_subject",
+      "have"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "64ab0834-8f6b-41a8-bf5a-2f02f8388a74",
+    "task": "Выбери правильную грузинскую фразу",
+    "task_phrase": "В эту комнату: ეს ოთახში / ამ ოთახში",
+    "answers": [
+      "ამ ოთახში",
+      "მე ამ ოთახში შევდივარ"
+    ],
+    "themes": [
+      "place_location",
+      "movement_verbs"
+    ],
+    "context": [
+      "home"
+    ],
+    "mode": "choose_form",
+    "skills": [
+      "demonstratives",
+      "postposition_shi"
+    ],
+    "difficulty": 2
+  }
+]

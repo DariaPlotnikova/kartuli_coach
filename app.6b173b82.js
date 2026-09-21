@@ -4,7 +4,8 @@
   const STORAGE_KEY = "kartuli.practice.v1";
   const BATCH_FILES = [
     "exercises/georgian_exercises_1000.json",
-    "exercises/georgian_exercises_additional_a1.json"
+    "exercises/georgian_exercises_additional_a1.json",
+    "exercises/georgian_exercises_enriched_a1_difficulty2.json"
   ];
   const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
   const THEME_LABELS = {
